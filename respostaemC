@@ -103,3 +103,42 @@ int main() {
     }
     return 0;
 }
+
+7
+
+#include <stdio.h>
+
+int main() {
+    int idade;
+    printf("Digite sua idade: ");
+    scanf("%d" , &idade);
+    
+    if(idade < 12){
+        printf("Você é uma criança!");
+    }else if(idade < 18){
+        printf("Você é um adolescente!");
+    }else if(idade < 60){
+        printf("Você é um adulto!");
+    }else{
+        printf("Você é um idoso!");
+    }
+
+    return 0;
+}
+
+8
+
+#include <stdio.h>
+
+int main() {
+    int n = 0;
+    
+    while(n <= 100 && n >= 0){
+        if(n % 7 == 0){
+            printf(" %d \n" , n);
+        }
+        n = n + 1;
+    }
+
+    return 0;
+}
