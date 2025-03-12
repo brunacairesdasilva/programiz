@@ -184,3 +184,23 @@ int main() {
 
     return 0;
 }
+
+
+12-
+Escreva um programa que solicite o nome do usuário e imprima uma saudação personalizada.
+
+    #include <stdio.h>
+
+int main(){
+    int n;
+    printf("Digite um número: ");
+    scanf("%d" , &n);
+    
+    if( n % 2 == 0 ){
+        printf("O número é par");
+    }else{
+        printf("O número e ímpar");
+    }
+    return 0;
+}
+     
